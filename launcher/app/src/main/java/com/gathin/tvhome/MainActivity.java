@@ -2570,18 +2570,21 @@ public class MainActivity extends Activity implements AppAdapter.TileListener {
         Locale locale = getResources().getConfiguration().getLocales().get(0);
         String lang = locale.getLanguage();
         String country = locale.getCountry();
-        if ("in".equals(lang) || "id".equals(lang)) {
+        if ("es".equals(lang)) {
+            if (hour < 12) res = R.string.good_morning;
+            else if (hour < 19) res = R.string.good_afternoon;
+            else res = R.string.good_evening;
+        } else if ("in".equals(lang) || "id".equals(lang)) {
             if (hour < 10) res = R.string.good_morning;
             else if (hour < 15) res = R.string.good_afternoon;
             else if (hour < 18) res = R.string.good_evening;
             else res = R.string.good_night;
-        } else if (("es".equals(lang) && "ES".equals(country)) || "ca".equals(lang)) {
+        } else if ("ca".equals(lang)) {
             if (hour < 6) res = R.string.good_night;
             else if (hour < 12) res = R.string.good_morning;
             else if (hour < 21) res = R.string.good_afternoon;
             else res = R.string.good_night;
         } else if ("da".equals(lang)) {
-            // Danish day parts: "God morgen" until 11, then "God formiddag" to noon.
             if (hour < 5) res = R.string.good_night;
             else if (hour < 11) res = R.string.good_morning;
             else if (hour < 12) res = R.string.good_forenoon;

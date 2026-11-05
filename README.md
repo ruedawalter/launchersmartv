@@ -23,6 +23,10 @@
   <a href="docs/PRESS.md"><img src="docs/card.jpg" alt="345 TV models · 93 brands · 29 languages · 532 KB launcher. Featured in TechCrunch, TechRadar, Tom's Guide, Mashable, Android Authority, XDA, FlatpanelsHD, It's FOSS, Phandroid, GIGAZINE, Xataka, WinFuture, Frandroid, Macitynet, Techaeris, TechPP and 297 more: 313 articles from 44 countries. Before: stock Google TV home with a sponsored ad. After: the Clean Your TV launcher." width="800"></a>
 </p>
 
+## Installation guide
+
+Read the [CleanYourTV installation guide](docs/INSTALLATION_GUIDE.md) before installing the project.
+
 ## Start here
 
 | You have | Go to |

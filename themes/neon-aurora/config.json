@@ -1,0 +1,42 @@
+{
+  "dock_apps": [
+    "com.lite.fczx",
+    "pe.wintv.tv",
+    "com.wireguard.android",
+    "com.google.android.youtube.tv",
+    "org.jellyfin.androidtv"
+  ],
+  "hidden_apps": [
+    "com.mediatek.wwtv.tvcenter",
+    "com.mitv.gallery"
+  ],
+  "columns": 5,
+  "rows_below_dock": 0,
+  "reduced_motion": true,
+  "background_color": "#080B18",
+  "wallpaper": true,
+  "cinematic_home": true,
+  "cinematic_dots": true,
+  "cinematic_scrim": 85,
+  "cinematic_art": 35,
+  "dock_glass": true,
+  "dock_band": true,
+  "dock_opacity": 50,
+  "dock_even_padding": true,
+  "ambient_glow": true,
+  "app_glow": true,
+  "glow_style": "horizon",
+  "glass_style": "halo",
+  "focus_overshoot": false,
+  "show_network_pill": true,
+  "launcher_settings_button": true,
+  "vpn_pill": true,
+  "vpn_app": "com.wireguard.android",
+  "wifi_status_color": true,
+  "header_white": true,
+  "show_stats": false,
+  "home_idle_clock_minutes": 5,
+  "clock_wallpaper": true,
+  "clock_wallpaper_dim": 65,
+  "clock_glow": true
+}

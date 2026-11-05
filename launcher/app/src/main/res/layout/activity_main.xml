@@ -142,7 +142,7 @@
             android:layout_marginTop="12dp"
             android:singleLine="true"
             android:textColor="#B3FFFFFF"
-            android:textSize="15sp"
+            android:textSize="12sp"
             android:fontFamily="@string/font_light"
             android:visibility="gone" />
 
@@ -212,8 +212,8 @@
                         android:format12Hour="h:mm"
                         android:format24Hour="HH:mm"
                         android:textColor="#FFFFFFFF"
-                        android:textSize="52sp"
-                        android:fontFamily="@string/font_light"
+                        android:textSize="26sp"
+                        android:fontFamily="@font/orbitron_medium"
                         android:letterSpacing="-0.04"
                         android:includeFontPadding="false" />
 
@@ -221,7 +221,7 @@
                         android:id="@+id/ampm"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="6dp"
+                        android:layout_marginStart="4dp"
                         android:layout_gravity="bottom"
                         android:layout_marginBottom="8dp"
                         android:format12Hour="a"
@@ -237,8 +237,8 @@
                         android:layout_width="1dp"
                         android:layout_height="26dp"
                         android:layout_gravity="bottom"
-                        android:layout_marginStart="16dp"
-                        android:layout_marginEnd="16dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
                         android:background="#33FFFFFF" />
 
@@ -271,15 +271,15 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:singleLine="@bool/date_single_line"
-                            android:maxLines="2"
+                            android:maxLines="1"
                             android:lineSpacingExtra="6dp"
-                            android:ellipsize="end"
+                            android:ellipsize="none"
                             android:format12Hour="@string/date_format_home"
                             android:format24Hour="@string/date_format_home"
                             android:textColor="#A6FFFFFF"
-                            android:textSize="14sp"
+                            android:textSize="10sp"
                             android:fontFamily="@string/font_regular"
-                            android:letterSpacing="0.14"
+                            android:letterSpacing="0.0"
                             android:textAllCaps="true" />
 
                         <!-- Lunar date ("Lunar 13/9 · Year of the Horse"), shown when lunar_date is on. -->
